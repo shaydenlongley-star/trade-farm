@@ -159,6 +159,8 @@ img { max-width:100%; display:block; }
   .nav-menu a:hover, .nav-menu a.active { color:#fff; background:rgba(209,25,36,0.12); }
   .nav-cta { background:var(--primary) !important; margin-top:12px !important; }
   .nav-toggle { display:flex; z-index:10000; position:relative; }
+  .nav-inner { position:relative; }
+  .nav-logo { position:absolute; left:50%; transform:translateX(-50%); }
 }
 
 /* ============================================
