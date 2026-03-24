@@ -227,7 +227,7 @@ img { max-width:100%; display:block; }
    MARQUEE
    ============================================ */
 .marquee-section { background:var(--primary); padding:14px 0; overflow:hidden; }
-.marquee-track { display:flex; white-space:nowrap; animation:marquee 35s linear infinite; }
+.marquee-track { display:flex; white-space:nowrap; animation:marquee 18s linear infinite; }
 .marquee-track:hover { animation-play-state:paused; }
 .marquee-item { display:inline-flex; align-items:center; gap:18px; padding:0 20px; font-family:var(--font-display); font-size:0.78rem; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:rgba(255,255,255,0.9); flex-shrink:0; }
 .marquee-dot { width:4px; height:4px; border-radius:50%; background:rgba(255,255,255,0.5); }
