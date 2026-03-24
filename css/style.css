@@ -171,7 +171,10 @@ img { max-width:100%; display:block; }
 }
 .hero-photo {
   position:absolute; inset:0; z-index:0;
-  background:#0a0a0a;
+  background-color:#0a0a0a;
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
   animation:kenBurns 22s ease-in-out infinite alternate;
 }
 @keyframes kenBurns { 0%{transform:scale(1) translateX(0)} 100%{transform:scale(1.1) translateX(-15px)} }
