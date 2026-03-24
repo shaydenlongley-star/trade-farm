@@ -417,6 +417,7 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
 }
 .back-to-top.visible { opacity:1; transform:translateY(0); pointer-events:all; }
 .back-to-top:hover { background:var(--primary-dark); transform:translateY(-2px); }
+.back-to-top .icon { width:20px; height:20px; display:block; }
 .dot-nav { position:fixed; right:20px; top:50%; transform:translateY(-50%); z-index:100; display:flex; flex-direction:column; gap:10px; }
 .dot-nav-dot { width:6px; height:6px; border-radius:1px; background:rgba(255,255,255,0.15); border:none; cursor:pointer; padding:0; transition:var(--transition-fast); position:relative; }
 .dot-nav-dot.active { background:var(--primary); height:20px; }
